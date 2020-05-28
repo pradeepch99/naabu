@@ -12,6 +12,7 @@ import (
 // JSONResult contains the result for a host in JSON format
 type JSONResult struct {
 	Host string `json:"host"`
+	IP   string `json:"ip"`
 	Port int    `json:"port"`
 }
 
